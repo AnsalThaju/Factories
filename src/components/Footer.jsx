@@ -35,6 +35,11 @@ export default function Footer() {
                 <span className="font-light ml-1 text-sm" style={{ color: 'var(--text-3)' }}>Solutions</span>
               </span>
             </Link>
+
+                <p className="text-sm leading-relaxed mb-4" style={{ color: 'var(--text-2)' }}>
+              FACTORIS SOLUTIONS LLP.
+            </p>
+
             <p className="text-sm leading-relaxed mb-4" style={{ color: 'var(--text-2)' }}>
               Smart Energy for a Sustainable Future. Kerala-based renewable energy and smart technology company.
             </p>
@@ -80,7 +85,9 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm" style={{ color: 'var(--text-2)' }}>
                 <MapPin size={15} className="mt-0.5 shrink-0" style={{ color: 'var(--neon-green)' }} />
-                <span>Mannam Plaza Building, Monnappalam, Thrissur, Kerala – 680585, India</span>
+                {/* <span>Mannam Plaza Building, Monnappalam, Thrissur, Kerala – 680585, India</span> */}
+                <span> 4/313, Muhammed Haji OPP Govt:UP School PERINJANAM , PERINJANAM MATHILAKAM , NH 17 THRISSUR , KERALA 680686 India</span>
+
               </li>
               <li className="flex items-center gap-2 text-sm" style={{ color: 'var(--text-2)' }}>
                 <Phone size={15} style={{ color: 'var(--neon-green)' }} />
@@ -88,7 +95,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2 text-sm" style={{ color: 'var(--text-2)' }}>
                 <Mail size={15} style={{ color: 'var(--neon-green)' }} />
-                <a href="mailto:iitdsstcr@gmail.com" className="hover:opacity-80 transition-opacity">info@factoris.in</a>
+                <a href="mailto:iitdsstcr@gmail.com" className="hover:opacity-80 transition-opacity">iitdsstcr@gmail.com</a>
               </li>
               <li className="flex items-center gap-2 text-sm" style={{ color: 'var(--text-2)' }}>
                 <Globe size={15} style={{ color: 'var(--neon-green)' }} />
@@ -104,11 +111,11 @@ export default function Footer() {
             © {new Date().getFullYear()} Factoris Solutions LLP. All rights reserved.
           </p>
           <p className="text-xs" style={{ color: 'var(--text-3)' }}>
-            Developed by <span style={{ color: 'var(--text-2)' }}>StellarTechnologies</span> · Ernakulam, Kerala
+            Developed by<span style={{ color: 'var(--text-2)' }}>: Stellar Technologies</span> · Ernakulam, Kerala
           </p>
 
-   <p className="text-xs" style={{ color: 'var(--text-2)' }}>
-            Contact: <span style={{ color: 'var(--text-2)' }}>stellartechnologies24@gmail.com</span>
+          <p className="text-xs" style={{ color: 'var(--text-2)' }}>
+            Contact: <span style={{ color: 'var(--text-2)' }}>stellartechnologies24@gmail.com || +91 7222888225</span>
           </p>
 
         </div>

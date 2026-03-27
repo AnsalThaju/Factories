@@ -3,7 +3,7 @@ import { MapPin, Phone, Mail, Globe, Send, CheckCircle } from 'lucide-react'
 import { SectionHeader, FadeIn } from '../components/UI'
 
 const contactInfo = [
-  { icon: <MapPin size={20} />, label: 'Address', value: 'Mannam Plaza Building, Monnappalam, Thrissur, Kerala – 680585, India', c: 'var(--neon-green)' },
+  { icon: <MapPin size={20} />, label: 'Address', value: ' 4/313, Muhammed Haji OPP Govt:UP School PERINJANAM , PERINJANAM MATHILAKAM , NH 17 THRISSUR , KERALA 680686 India', c: 'var(--neon-green)' },
   { icon: <Phone size={20} />, label: 'Phone', value: '+91 9946359797', href: 'tel:+91 9946359797', c: 'var(--neon-blue)' },
   { icon: <Mail size={20} />, label: 'Email', value: 'iitdsstcr@gmail.com', href: 'mailto:iitdsstcr@gmail.com', c: 'var(--neon-green)' },
   { icon: <Globe size={20} />, label: 'Website', value: 'www.factoris.in', href: 'http://www.factoris.in', c: 'var(--neon-blue)' },
